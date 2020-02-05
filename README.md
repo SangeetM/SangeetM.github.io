@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/SangeetM/sangeetm.github.io/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  sangeet.ai
 </h1>
 <p align="center">
   The fourth iteration of <a href="https://sangeetm.github.io/" target="_blank">sangeetm.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
