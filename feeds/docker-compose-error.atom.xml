@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Sangeet.ai Blog - docker-compose-error</title><link href="https://sangeetm.github.io/" rel="alternate"></link><link href="https://sangeetm.github.io/feeds/docker-compose-error.atom.xml" rel="self"></link><id>https://sangeetm.github.io/</id><updated>2019-12-13T00:00:00+05:30</updated><entry><title>Docker Compose Error</title><link href="https://sangeetm.github.io/'/pensieve/docker-error'.html" rel="alternate"></link><published>2019-12-13T00:00:00+05:30</published><updated>2019-12-13T00:00:00+05:30</updated><author><name>Sangeet Moy Das</name></author><id>tag:sangeetm.github.io,2019-12-13:/'/pensieve/docker-error'.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;WordPress&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;Recently while updating with &lt;a href="https://github.com/Upstatement/skela-wp-theme"&gt;Skela&lt;/a&gt; with webpack, I encountered a weird error where I wasn't able to run a simple script:&lt;/p&gt;
+&lt;p&gt;```shell:title=bin/composer&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;p&gt;docker-compose exec -w /var/www/html/wp-content/themes/skela wordpress composer "$@"&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;When&lt;/span&gt; &lt;span class="n"&gt;trying&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;run&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;script&lt;/span&gt; &lt;span class="n"&gt;via&lt;/span&gt; &lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;composer …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;WordPress&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;Recently while updating with &lt;a href="https://github.com/Upstatement/skela-wp-theme"&gt;Skela&lt;/a&gt; with webpack, I encountered a weird error where I wasn't able to run a simple script:&lt;/p&gt;
+&lt;p&gt;```shell:title=bin/composer&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;p&gt;docker-compose exec -w /var/www/html/wp-content/themes/skela wordpress composer "$@"&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;When&lt;/span&gt; &lt;span class="n"&gt;trying&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;run&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;script&lt;/span&gt; &lt;span class="n"&gt;via&lt;/span&gt; &lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;composer&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt;&lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;got&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;error&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;terminal&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+
+&lt;span class="o"&gt;```&lt;/span&gt;&lt;span class="n"&gt;shell&lt;/span&gt;
+&lt;span class="n"&gt;ERROR&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Setting&lt;/span&gt; &lt;span class="n"&gt;workdir&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="k"&gt;exec&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="k"&gt;not&lt;/span&gt; &lt;span class="n"&gt;supported&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="n"&gt;API&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;35&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The error was coming from the &lt;code&gt;-w&lt;/code&gt; flag in the &lt;code&gt;docker-compose exec&lt;/code&gt; command in the &lt;code&gt;composer&lt;/code&gt; script.&lt;/p&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;p&gt;Turns The fix was to update the version in my &lt;code&gt;docker-compose.yml&lt;/code&gt; file to from version &lt;code&gt;3.5&lt;/code&gt; to &lt;code&gt;3.6&lt;/code&gt;. It's strange because 3.5 isn't anywhere close to the API version &lt;code&gt;1.35&lt;/code&gt; from the error message 🤷‍♀️&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml:title=docker-compose.yml
+version: '3.6' # highlight-line
+services:
+  wordpress:
+    build:&lt;/code&gt;&lt;/p&gt;</content><category term="docker-compose-error"></category></entry></feed>
