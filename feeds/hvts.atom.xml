@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Sangeet.ai Blog - HVTS</title><link href="https://sangeetm.github.io/" rel="alternate"></link><link href="https://sangeetm.github.io/feeds/hvts.atom.xml" rel="self"></link><id>https://sangeetm.github.io/</id><updated>2020-10-03T00:00:00+05:30</updated><entry><title>'Pair Trading'</title><link href="https://sangeetm.github.io/pair-trading.html" rel="alternate"></link><published>2020-10-03T00:00:00+05:30</published><updated>2020-10-03T00:00:00+05:30</updated><author><name>Sangeet Moy Das</name></author><id>tag:sangeetm.github.io,2020-10-03:/pair-trading.html</id><content type="html">&lt;ul&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;li&gt;Gitlab CI/CD&lt;/li&gt;
+&lt;li&gt;DVC&lt;/li&gt;
+&lt;li&gt;Scala&lt;/li&gt;
+&lt;li&gt;Javascript
+showInProjects: true&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Web application built for pair trading in the US Equity market. It is built on top of concepts from statistical arbitrage theory.&lt;/p&gt;</content><category term="HVTS"></category></entry><entry><title>'Quantitative Analyst'</title><link href="https://sangeetm.github.io/'https:/pairtrading.dev/'" rel="alternate"></link><published>2018-07-10T00:00:00+05:30</published><updated>2018-07-10T00:00:00+05:30</updated><author><name>Sangeet Moy Das</name></author><id>tag:sangeetm.github.io,2018-07-10:/'https:/pairtrading.dev/'</id><content type="html">&lt;ul&gt;
+&lt;li&gt;The team was tasked with building a Trading platform for Pair Trading in the US equity market, and I was tasked with research &amp;amp; implementation of a statistical model for building intraday strategy &amp;amp; write an API to seamlessly publish new models into the app middle-tier.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="HVTS"></category></entry></feed>

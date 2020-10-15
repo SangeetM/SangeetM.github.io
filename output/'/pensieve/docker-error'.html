@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Docker Compose Error</title>
+        <link rel="stylesheet" href="https://sangeetm.github.io/theme/css/main.css" />
+        <link href="https://sangeetm.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Sangeet.ai Blog Atom Feed" />
+        <meta name="description" content="WordPress Docker Problem Recently while updating with Skela with webpack, I encountered a weird error where I wasn't able to run a simple script:..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://sangeetm.github.io/">Sangeet.ai Blog</a></h1>
+                <nav><ul>
+                    <li><a href="https://sangeetm.github.io/pages/about.html">About</a></li>
+                    <li class="active"><a href="https://sangeetm.github.io/category/docker-compose-error.html">docker-compose-error</a></li>
+                    <li><a href="https://sangeetm.github.io/category/foundationbricks.html">FoundationBricks</a></li>
+                    <li><a href="https://sangeetm.github.io/category/hvts.html">HVTS</a></li>
+                    <li><a href="https://sangeetm.github.io/category/intelligentsystems.html">IntelligentSystems</a></li>
+                    <li><a href="https://sangeetm.github.io/category/markdown-playground.html">markdown-playground</a></li>
+                    <li><a href="https://sangeetm.github.io/category/misc.html">misc</a></li>
+                    <li><a href="https://sangeetm.github.io/category/muhvt.html">muHVT</a></li>
+                    <li><a href="https://sangeetm.github.io/category/projects.html">projects</a></li>
+                    <li><a href="https://sangeetm.github.io/category/prototyperesearch.html">PrototypeResearch</a></li>
+                    <li><a href="https://sangeetm.github.io/category/rulesofml.html">RulesOfML</a></li>
+                    <li><a href="https://sangeetm.github.io/category/wordpress-publish-error.html">wordpress-publish-error</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://sangeetm.github.io/'/pensieve/docker-error'.html" rel="bookmark"
+           title="Permalink to Docker Compose Error">Docker Compose Error</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-12-13T00:00:00+05:30">
+                Published: Fri 13 December 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://sangeetm.github.io/author/sangeet-moy-das.html">Sangeet Moy Das</a>
+        </address>
+<p>In <a href="https://sangeetm.github.io/category/docker-compose-error.html">docker-compose-error</a>.</p>
+
+</footer><!-- /.post-info -->      <ul>
+<li>WordPress</li>
+<li>Docker</li>
+</ul>
+<hr>
+<h2>Problem</h2>
+<p>Recently while updating with <a href="https://github.com/Upstatement/skela-wp-theme">Skela</a> with webpack, I encountered a weird error where I wasn't able to run a simple script:</p>
+<p>```shell:title=bin/composer</p>
+<h1>!/bin/bash</h1>
+<p>docker-compose exec -w /var/www/html/wp-content/themes/skela wordpress composer "$@"</p>
+<div class="highlight"><pre><span></span><code><span class="k">When</span> <span class="n">trying</span> <span class="k">to</span> <span class="n">run</span> <span class="n">this</span> <span class="n">script</span> <span class="n">via</span> <span class="o">`</span><span class="p">.</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">composer</span> <span class="n">install</span><span class="o">`</span><span class="p">,</span> <span class="n">I</span> <span class="n">got</span> <span class="n">this</span> <span class="n">error</span> <span class="k">in</span> <span class="n">my</span> <span class="n">terminal</span><span class="p">:</span>
+
+<span class="o">```</span><span class="n">shell</span>
+<span class="n">ERROR</span><span class="p">:</span> <span class="n">Setting</span> <span class="n">workdir</span> <span class="k">for</span> <span class="k">exec</span> <span class="k">is</span> <span class="k">not</span> <span class="n">supported</span> <span class="k">in</span> <span class="n">API</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">.</span><span class="mi">35</span> <span class="p">(</span><span class="mi">1</span><span class="p">.</span><span class="mi">30</span><span class="p">)</span>
+</code></pre></div>
+
+<p>The error was coming from the <code>-w</code> flag in the <code>docker-compose exec</code> command in the <code>composer</code> script.</p>
+<h2>Solution</h2>
+<p>Turns The fix was to update the version in my <code>docker-compose.yml</code> file to from version <code>3.5</code> to <code>3.6</code>. It's strange because 3.5 isn't anywhere close to the API version <code>1.35</code> from the error message 🤷‍♀️</p>
+<p><code>yaml:title=docker-compose.yml
+version: '3.6' # highlight-line
+services:
+  wordpress:
+    build:</code></p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://sangeetm.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
