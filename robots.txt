@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sangeetm.github.io/sitemap.xml
+Host: https://sangeetm.github.io
