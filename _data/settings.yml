@@ -9,6 +9,7 @@ social:
 - {icon: 'twitter', link: 'https://twitter.com/SangeetMD'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/sangeetdas/'}
 - {icon: 'envelope', link: 'mailto:dassangeet768@gmail.com'}
+- {icon: 'rss-square', link: '/feed.xml'}
 
 # Customize site text
 pagination:
