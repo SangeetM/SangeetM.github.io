@@ -94,6 +94,7 @@ sangeetm.github.io/
 ├── index.md                   # Home page
 ├── LICENSE.md                 # License for this theme
 ├── README.md                  # Includes all of the documentation for this theme
+└── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
 ```
 
 ### Starting From Scratch
