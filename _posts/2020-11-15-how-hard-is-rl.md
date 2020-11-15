@@ -2,7 +2,7 @@
 layout: post
 title: "How Hard is Reinforcement Learning?"
 author: "Sangeet Moy Das"
-categories: blog
+categories: research
 tags: [documentation,sample]
 image: cutting.jpg
 ---
