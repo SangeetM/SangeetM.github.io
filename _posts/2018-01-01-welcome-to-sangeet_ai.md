@@ -11,4 +11,4 @@ Sangeet.ai's Blog uses a minimalist Jekyll theme. The purpose of this theme is t
 
 ## Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2018-01-01-text-formatting-examples %})
+[Text and Formatting]({{ site.github.url }}{% post_url 2018-01-10-text-formatting-examples %})
