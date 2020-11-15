@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Welcome to Sangeet.ai Blog!
+title: Welcome to Sangeet.ai's Blog!
 ---
 
-Sangeet.ai Blog uses a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Sangeet.ai's Blog uses a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
 
 ### Getting Started
 

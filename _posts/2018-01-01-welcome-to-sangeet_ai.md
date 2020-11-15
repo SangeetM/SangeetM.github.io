@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Sangeet.ai Blog!"
+title: "Welcome to Sangeet.ai's Blog!"
 author: "Sangeet Moy Das"
 categories: journal
 tags: [documentation,sample]

@@ -20,6 +20,6 @@ permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Sangeet.ai Blog'
+title:		           'Sangeet.ai's Blog'
 description:	       'a Data Science Perspective'
 author:              'Sangeet Moy Das'
