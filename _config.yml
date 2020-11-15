@@ -21,5 +21,9 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Sangeet.ai Blog'
-description:	       'A Data Scientist's Perspective'
+description:	       'a minimalist Jekyll theme'
 author:              'Sangeet Moy Das'
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
