@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: cutting.jpg
 ---
 
-A 30 minute [lecture](https://youtu.be/WP-FkUaOcOM) on how to write a <b>great</b> research paper by Prof. Simon Peyton Jones.
+A 60 minute [lecture](https://youtu.be/WP-FkUaOcOM) on how to write a <b>great</b> research paper by Prof. Simon Peyton Jones.
 
 ## What I Learned ##
 *  Once you have an idea, start writing right away
@@ -22,4 +22,4 @@ A 30 minute [lecture](https://youtu.be/WP-FkUaOcOM) on how to write a <b>great</
 *  Have 1-2 people read each draft of your paper, being sure to have them tell you where they got lost	
 
 
-<b>As a researcher, either you won't understand something and you will feel stupid and like a worm, or you will understand something and think it's too trivial and hence still feel like a worm; it turns out that the life of a PhD student is quite depressing.</b>
+<b>As a researcher, either you won't understand something and you will feel stupid and like a worm, or you will understand something and think it's too trivial and hence still feel like a worm; it turns out that the life of a Data Scientist is quite depressing.</b>
