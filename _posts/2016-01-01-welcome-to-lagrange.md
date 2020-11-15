@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
+title: "Welcome to Sangeet.ai Blog!"
+author: "Sangeet Moy Das"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg

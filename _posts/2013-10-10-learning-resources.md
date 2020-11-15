@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning Resources"
-author: "Paul Le"
+author: "Sangeet Moy Das"
 categories: journal
 tags: [documentation,sample]
 image: spools.jpg
