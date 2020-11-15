@@ -4,7 +4,7 @@ title: "How Hard is Reinforcement Learning?"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: cutting.jpg
+image: reinforcement-learning.png
 ---
 
 <script type="text/javascript" async

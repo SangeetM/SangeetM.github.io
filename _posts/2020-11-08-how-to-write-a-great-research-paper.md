@@ -4,7 +4,7 @@ title: "How To Write A Great Research Paper?"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: cutting.jpg
+image: research-paper.jpg
 ---
 
 A 60 minute [lecture](https://youtu.be/WP-FkUaOcOM) on how to write a <b>great</b> research paper by Prof. Simon Peyton Jones.
