@@ -7,8 +7,8 @@ Sangeet.ai Blog uses a minimalist Jekyll theme. The purpose of this theme is to 
 
 ### Getting Started
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing this blog for your own stories, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+[Getting Started]({{ site.github.url }}{% post_url 2018-01-01-getting-started %}): getting started with installing this blog for your own stories, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
 
 ### Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+[Text and Formatting]({{ site.github.url }}{% post_url 2018-01-01-text-formatting-examples %})
