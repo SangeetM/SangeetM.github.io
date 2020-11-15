@@ -4,7 +4,7 @@ title: "PyTorch 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: pytorch.png
 ---
 
 <script type="text/javascript" async

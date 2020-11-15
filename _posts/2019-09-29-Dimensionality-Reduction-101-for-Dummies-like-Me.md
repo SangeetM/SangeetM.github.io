@@ -4,7 +4,7 @@ title: "Dimensionality Reduction 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: dimensionality-reduction.jpg
 ---
 
 Let’s starts with the WHY we need to perform Dimensionality Reduction

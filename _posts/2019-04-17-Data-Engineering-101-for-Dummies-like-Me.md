@@ -4,7 +4,7 @@ title: "Data Engineering 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: data-engineering.jpeg
 ---
 
 Let’s start with the why, as I move from one blog post to another I feel

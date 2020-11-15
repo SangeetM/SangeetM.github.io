@@ -4,7 +4,7 @@ title: "Deep Learning 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: deep-learning.png
 ---
 
 Currently, **Artificial Intelligence** is advancing at a great pace and

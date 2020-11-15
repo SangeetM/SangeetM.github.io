@@ -4,7 +4,7 @@ title: "Data Science Life Cycle 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: data-science.png
 ---
 
 Data science is quickly evolving to be one of the hottest fields in the

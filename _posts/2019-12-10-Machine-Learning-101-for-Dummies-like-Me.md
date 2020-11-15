@@ -4,7 +4,7 @@ title: "Machine Learning 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: machine-learning.png
 ---
 
 Typing “*what is machine learning?”* into a Google search opens up a

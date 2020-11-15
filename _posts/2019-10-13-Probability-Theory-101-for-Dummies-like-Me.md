@@ -4,7 +4,7 @@ title: "Probability Theory 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: probability.jpg
 ---
 
 In the *Classical interpretation* Probability is the measure of the

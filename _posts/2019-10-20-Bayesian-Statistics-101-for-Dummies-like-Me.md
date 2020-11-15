@@ -4,7 +4,7 @@ title: "Bayesian Statistics 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: bayesian-statistics.png
 ---
 
 If you are in some field that has data (which is a lot of fields these

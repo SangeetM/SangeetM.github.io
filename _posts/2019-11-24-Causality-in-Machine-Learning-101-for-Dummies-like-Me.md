@@ -4,7 +4,7 @@ title: "Causality in Machine Learning 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 categories: research
 tags: [documentation,sample]
-image: reinforcement-learning.png
+image: causality.png
 ---
 
 Recently I started wondering how `Causal inference` is being used with `machine learning` and especially wherein the data science project
