@@ -1,14 +1,16 @@
 ---
 layout: post
+type: post
 title: "How Hard is Reinforcement Learning?"
 author: "Sangeet Moy Das"
 date: 2020-11-15
-categories: research
-tags: [documentation,sample]
-image: reinforcement-learning.png
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 ---
 
-![](../assets/reinforcement-learning.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/reinforcement-learning.png){:style="text-align: center;"}
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">

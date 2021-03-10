@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Algo Trading 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-06-23
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/algo-trading.jpeg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/algo-trading.jpeg){:style="text-align: center;"}
 
 Here’s an attempt to describe the **Algo Trading** business in layman’s
 terms. Let’s split the phrase into words — *Algo*and *Trading*As you may

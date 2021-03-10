@@ -1,10 +1,11 @@
 ---
 layout: post
+type: post
 title: "Git team workflow: merge or rebase?"
 date: 2018-10-25
 category: notebook
 comments: true
-author: "LJ MIRANDA"
+author: "Sangeet Moy Das"
 tags: [git, automation, software development, workflow]
 ---
 

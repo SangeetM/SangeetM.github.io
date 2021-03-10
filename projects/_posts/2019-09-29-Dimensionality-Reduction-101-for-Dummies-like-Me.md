@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Dimensionality Reduction 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-09-29
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/dimensionality-reduction.jpg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/dimensionality-reduction.jpg){:style="text-align: center;"}
 
 Let’s starts with the WHY we need to perform Dimensionality Reduction
 before analyzing data and coming down to some inferences, it is often

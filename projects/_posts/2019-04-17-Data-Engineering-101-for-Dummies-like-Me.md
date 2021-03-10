@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Data Engineering 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-04-17
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/data-engineering.jpeg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/data-engineering.jpeg){:style="text-align: center;"}
 
 Let’s start with the why, as I move from one blog post to another I feel
 like I’m missing something, the more and more I become proficient as a

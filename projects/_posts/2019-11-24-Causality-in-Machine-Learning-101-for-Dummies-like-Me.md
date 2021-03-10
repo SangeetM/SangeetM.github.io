@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Causality in Machine Learning 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-11-24
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/causality.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/causality.png){:style="text-align: center;"}
 
 Recently I started wondering how `Causal inference` is being used with `machine learning` and especially wherein the data science project
 lifecycle? I have been researching this for a while, discussed with

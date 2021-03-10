@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Data Science Life Cycle 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-09-20
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/data-science.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/data-science.png){:style="text-align: center;"}
 
 Data science is quickly evolving to be one of the hottest fields in the
 technology industry. With rapid advancements in computational

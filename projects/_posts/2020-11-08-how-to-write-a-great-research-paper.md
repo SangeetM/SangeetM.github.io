@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "How To Write A Great Research Paper?"
 author: "Sangeet Moy Das"
 date: 2020-11-08
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/research-paper.jpg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/research-paper.jpg){:style="text-align: center;"}
 
 A 60 minute [lecture](https://youtu.be/WP-FkUaOcOM) on how to write a <b>great</b> research paper by Prof. Simon Peyton Jones.
 

@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Machine Learning 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-12-10
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/machine-learning.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/machine-learning.png){:style="text-align: center;"}
 
 Typing “*what is machine learning?”* into a Google search opens up a
 pandora’s box of forums, academic research, and here-say — and the

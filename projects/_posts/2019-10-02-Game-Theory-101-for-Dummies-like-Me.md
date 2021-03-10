@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Game Theory 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-10-02
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/game-theory.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/game-theory.png){:style="text-align: center;"}
 
 **Game Theory** is one of the most fascinating branches of mathematics
 with tons of applications to fields ranging from the social sciences to

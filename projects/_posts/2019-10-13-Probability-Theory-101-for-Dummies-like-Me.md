@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Probability Theory 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-10-13
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/probability.jpg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/probability.jpg){:style="text-align: center;"}
 
 In the *Classical interpretation* Probability is the measure of the
 likelihood that an event will occur in a Random Experiment; In other

@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Reinforcement Learning — An Introduction | Chapter 1"
 author: "Sangeet Moy Das"
 date: 2020-08-27
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/reinforcement-learning.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/reinforcement-learning.png){:style="text-align: center;"}
 
 Today I’m going to start a new series on my
 [blog](https://sangeetm.github.io/) where I will be summarizing the

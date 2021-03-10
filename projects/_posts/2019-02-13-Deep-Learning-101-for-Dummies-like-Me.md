@@ -1,13 +1,16 @@
 ---
 layout: post
+type: post
 title: "Deep Learning 101 for Dummies like Me"
 date: 2019-02-13
+category: projects
+comments: true
 author: "Sangeet Moy Das"
-categories: research
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/deep-learning.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/deep-learning.png){:style="text-align: center;"}
 
 Currently, **Artificial Intelligence** is advancing at a great pace and
 deep learning is one of the biggest contributors to that. So, in the 2nd

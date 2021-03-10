@@ -1,11 +1,12 @@
 ---
 layout: post
+type: post
 title: "Implementing a two-layer neural network from scratch"
-date: 2017-02-17
+date: 2020-04-17
 category: notebook
 comments: true
 math: true
-author: "LJ MIRANDA"
+author: "Sangeet Moy Das"
 ---
 
 > I am currently following the [course notes](http://cs231n.github.io/) of CS231n: Convolutional Neural Networks for Visual Recognition in Stanford University. There are programming exercises involved, and I wanted to share my solutions to some of the problems.

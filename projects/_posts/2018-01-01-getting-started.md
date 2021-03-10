@@ -1,14 +1,16 @@
 ---
 layout: post
+type: post
 title: "Getting Started with Blogging"
 date: 2018-01-01
-categories: journal
+category: projects
 comments: true
 author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/forest.jpg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/forest.jpg){:style="text-align: center;"}
 
 # Sangeet.ai's Blog
 

@@ -1,13 +1,16 @@
 ---
 layout: post
+type: post
 title: "PyTorch 101 for Dummies like Me"
 date: 2018-11-05
+category: projects
+comments: true
 author: "Sangeet Moy Das"
-categories: research
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/pytorch.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/pytorch.png){:style="text-align: center;"}
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">

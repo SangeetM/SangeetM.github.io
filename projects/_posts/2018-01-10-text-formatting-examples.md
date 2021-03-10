@@ -1,13 +1,16 @@
 ---
 layout: post
+type: post
 title: "Text Formatting Examples"
 date: 2018-01-10
+category: projects
+comments: true
 author: "Sangeet Moy Das"
-categories: journal
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/cards.jpg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/cards.jpg){:style="text-align: center;"}
 
 # Markdown Support
 

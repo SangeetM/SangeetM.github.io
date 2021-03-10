@@ -1,13 +1,17 @@
 ---
 layout: post
+type: post
 title: "Bayesian Statistics 101 for Dummies like Me"
 author: "Sangeet Moy Das"
 date: 2019-10-20
-categories: research
+category: projects
+comments: true
+author: "Sangeet Moy Das"
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/bayesian-statistics.png){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/bayesian-statistics.png){:style="text-align: center;"}
 
 If you are in some field that has data (which is a lot of fields these
 days), you will have undoubtedly encountered the term Bayesian

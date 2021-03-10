@@ -1,10 +1,11 @@
 ---
 layout: post
+type: post
 title: "How to stream Twitter using Python"
-date: 2017-02-24
+date: 2019-02-24
 category: notebook
 comments: true
-author: "LJ MIRANDA"
+author: "Sangeet Moy Das"
 ---
 
 Streaming tweets can be a fun exercise in data mining. With almost a million

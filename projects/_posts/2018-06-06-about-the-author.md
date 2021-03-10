@@ -1,12 +1,15 @@
 ---
 layout: post
+type: post
 title: "About the Author"
 date: 2018-06-06
+category: projects
+comments: true
 author: "Sangeet Moy Das"
-categories: journal
+math: true
 tags: [documentation,sample]
 ---
 
-![](../assets/cutting.jpg){:width="560px"}{:style="text-align: center;"}
+![](/projects/assets/cutting.jpg){:style="text-align: center;"}
 
 Hi there! I'm Sangeet. I’m a Computer Science Grad working as a Data Scientist with Mu Sigma Inc.
