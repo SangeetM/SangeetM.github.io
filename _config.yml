@@ -1,25 +1,77 @@
-# Site Build Settings
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Sangeet Moy Das
+email: dassangeet768@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Some notes on software, systems, machine learning, and research.
 
-# jekyll-paginate configuration
-paginate:            5
+# Link settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sangeetm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
+
+# Social settings
+social_sites:
+  github:  SangeetM
+  linkedin: sangeetdas
+
+# rss: rss
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+# Kramdown settings
+kramdown:
+  input: GFM
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Sangeet.ai'
-description:	       'Applied Research Perspective'
-author:              'Sangeet Moy Das'
+# Highlighter settings
+highlighter: rouge
+
+# # Disqus
+# disqus:
+#   shortname: ljvmiranda921-github-io-1
+
+# # Google analytics
+# google_analytics: UA-106021948-1
+
+# Publish future
+future: true
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+#  - about.html
+  #- /cv/index.md
+  #- /notebook/index.md
+  #- /projects/index.md
+
+# Include this line so that travis will not explode
+exclude: [vendor]
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
